@@ -15,8 +15,7 @@ CREATE TABLE location (
     city_loc_id INT NOT NULL,
     FOREIGN KEY (branch_loc_id) REFERENCES branch(branch_id),
     FOREIGN KEY (city_loc_id) REFERENCES city(city_id),
-    UNIQUE (branch_loc_id, city_loc_id) -- Permite que una ciudad tenga solo un tipo de Branch, por ejemplo la ciudad "Yangon" solo puede tener una unica tienda del branch A, una B y una C.
-);
+    UNIQUE (branch_loc_id, city_loc_id)
 
 
 CREATE TABLE product_line(
