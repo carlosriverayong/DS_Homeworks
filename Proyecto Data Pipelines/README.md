@@ -13,4 +13,4 @@ Una transaccional en donde se consumen 2 archivos cargados en el servicio de S3 
 
 La segunda parte consiste en la elaboracion de las dimensiones y la tabla de hechos del DataWarehouse, en el caso del dataset utilizado se buscó la manera de representar de la mejor manera y ejemplificar el proceso de elaboracion de un DW, siempre manteniendo la escencia de los conceptos aprendidos y del uso de python para la manipulacion de data e interaccion con los servicios de AWS. 
 
-### Nota: Se carga un archivo .txt con los paquetes instalados en el environment de Conda para que puedan instalarse en caso de querer ejecutar el codigo y asi no tener problemas de compatibilidad de librerias. Este puede instalarse con el siguiente comando 'conda install --file packages.txt'
+## Nota: Se carga un archivo .txt con los paquetes instalados en el environment de Conda para que puedan instalarse en caso de querer ejecutar el codigo y asi no tener problemas de compatibilidad de librerias. Este puede instalarse con el siguiente comando 'conda install --file packages.txt'
